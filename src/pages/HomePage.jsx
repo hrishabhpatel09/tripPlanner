@@ -6,7 +6,7 @@ function HomePage() {
     setLocation(res)
   },()=>{},{enableHighAccuracy:true})
   return (
-    <div className='bg-black h-[100vh] text-white'>
+    <div className='bg-black h-[100vh] text-white flex justify-center '>
       Latitude: {location?.coords?.latitude}
       <br />
       Longitude: {location?.coords?.longitude}
